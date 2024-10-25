@@ -1,12 +1,28 @@
 # Intro
 
-This collection of files & scripts should be used to help with local testnet management. Before run - you should build the Klyntar core.
+This collection of files & scripts should be used to help with local testnet management
+
+# Before run - you should build the Klyntar core
 
 See https://docs.klyntar.org/build-core-and-join-network/run-kly-node
 
 # After build, omit the last part about preparing configs and genesis:
 
 ![alt text](image.png)
+
+# Switch to branch in core `dev_cloud`
+
+```shell
+git checkout dev_cloud
+```
+
+# Then, clone this repository
+
+```shell
+git clone https://github.com/KLYN74R/NetRunner.git
+
+cd NetRunner
+```
 
 # Preparing netrunner configs
 
