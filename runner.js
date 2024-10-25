@@ -1,37 +1,51 @@
-const { spawn } = require('child_process');
+const fs = require('fs');
+
+const {spawn} = require('child_process');
 
 const path = require('path');
 
 
+const netRunnerConfigsPath = path.join(__dirname, 'netrunner_configs.json');
 
-const CORE_PATH = 'C:/Users/MI/MyProjects/KlyntarCore/klyn74r.js'; // set FULL path to klyn74r.js
+const netRunnerConfigs = JSON.parse(fs.readFileSync(netRunnerConfigsPath, 'utf8'));
 
-const KLY_MODE = 'testnet';
+const CORE_PATH = netRunnerConfigs.corePath;
+
+const KLY_MODE = netRunnerConfigs.mode;
 
 
 
 // Directory with subdirs for nodes
-const baseDir = path.join(__dirname, 'TESTNET_V2');
+const baseDir = path.join(__dirname,`X${netRunnerConfigs.testnetDir}`);
 
 
 
 // Set full pathes to dirs
 
-const NODES_DIRS = [
-    
-    `${baseDir}/V1`,
-    `${baseDir}/V2`
+let NODES_DIRS = [`${baseDir}/V1`, `${baseDir}/V2`];
 
-];
+if(netRunnerConfigs.testnetDir==='TESTNET_V5'){
+
+    NODES_DIRS = [];
+
+    for(let i = 1; i <= 5 ; i++) NODES_DIRS.push(`${baseDir}/V${i}`);
+
+} else if (netRunnerConfigs.testnetDir==='TESTNET_V21'){
+
+    NODES_DIRS = [];
+
+    for(let i = 1; i <= 21 ; i++) NODES_DIRS.push(`${baseDir}/V${i}`);
+
+}
 
 
 const childProcesses = [];
 
 
 // Main function to run nodes as a subprocesses
-function runKlyntarWithEnv(symbioteDir) {
+function runKlyntarWithEnv(pathToChainDirectory) {
 
-    const env = { ...process.env, SYMBIOTE_DIR: symbioteDir, KLY_MODE }; // set process env vars
+    const env = { ...process.env, SYMBIOTE_DIR: pathToChainDirectory, KLY_MODE }; // set process env vars
 
     const klyntarProcess = spawn('node',[CORE_PATH], { env });
 
@@ -41,15 +55,15 @@ function runKlyntarWithEnv(symbioteDir) {
     // Handlers to work with IO
 
     klyntarProcess.stdout.on('data', (data) => {
-        console.log(`[${symbioteDir}]: ${data}`);
+        console.log(`[${pathToChainDirectory}]: ${data}`);
     });
 
     klyntarProcess.stderr.on('data', (data) => {
-        console.error(`[${symbioteDir}]: ${data}`);
+        console.error(`[${pathToChainDirectory}]: ${data}`);
     });
 
     klyntarProcess.on('close', (code) => {
-        console.log(`[${symbioteDir}]: ${code}`);
+        console.log(`[${pathToChainDirectory}]: ${code}`);
     });
 
 }

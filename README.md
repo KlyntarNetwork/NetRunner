@@ -1,6 +1,6 @@
 # Intro
 
-This collection of files & scripts should be used to help with local testnet management.
+This collection of files & scripts should be used to help with local testnet management. This repository will delete
 
 ### How to use `update_timestamp_in_genesis.js`
 
