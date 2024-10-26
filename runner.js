@@ -34,7 +34,13 @@ if(netRunnerConfigs.testnetDir==='TESTNET_V5'){
 
     NODES_DIRS = [];
 
-    for(let i = 1; i <= 21 ; i++) NODES_DIRS.push(`${baseDir}/V${i}`);
+    for(let i = 1; i <= 21 ; i++) {
+
+        if(netRunnerConfigs.nodesIdsToDisable.includes(i)) continue; // to test when some validators are afk
+
+        NODES_DIRS.push(`${baseDir}/V${i}`);
+
+    }
 
 }
 

@@ -1,5 +1,6 @@
 {
     "corePath":"C:/Users/MI/MyProjects/KlyntarCore/klyn74r.js",
     "mode":"testnet",
-    "testnetDir":"TESTNET_V21"
+    "testnetDir":"TESTNET_V21",
+    "nodesIdsToDisable":[]
 }
