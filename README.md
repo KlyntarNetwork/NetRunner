@@ -19,6 +19,14 @@ See https://docs.klyntar.org/build-core-and-join-network/run-kly-node
 git checkout dev_cloud
 ```
 
+And install `web1337` by running:
+
+```shell
+pnpm install
+```
+
+> This is to generate mock transactions and fill the blocks
+
 # 4. Now clone this repository in some another directory
 
 ```shell
