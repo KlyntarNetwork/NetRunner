@@ -50,7 +50,6 @@
         "9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK":{
         
             "percentage":0.5,
-            "overStake":10000,
             "totalStakedKly":55000,
             "totalStakedUno": 0,
             "shard":"shard_0",
@@ -69,7 +68,6 @@
         "6XvZpuCDjdvSuot3eLr24C1wqzcf2w4QqeDh9BnDKsNE":{
         
             "percentage":0.5,
-            "overStake":10000,
             "totalStakedKly":55000,
             "totalStakedUno": 0,
             "shard":"shard_0",
@@ -88,7 +86,6 @@
         "GUbYLN5NqmRocMBHqS183r2FQRoUjhx1p5nKyyUBpntQ":{
         
             "percentage":0.5,
-            "overStake":10000,
             "totalStakedKly":55000,
             "totalStakedUno": 0,
             "shard":"shard_1",
@@ -107,7 +104,6 @@
         "3JAeBnsMedzxjCMNWQYcAXtwGVE9A5DBQyXgWBujtL9R":{
         
             "percentage":0.5,
-            "overStake":10000,
             "totalStakedKly":55000,
             "totalStakedUno": 0,
             "shard":"shard_1",
@@ -126,7 +122,6 @@
         "EGU4u3Anwahbtbx8F1ZZgFQSg2u49EkrkqMERT9r3q1o":{
         
             "percentage":0.5,
-            "overStake":10000,
             "totalStakedKly":55000,
             "totalStakedUno": 0,
             "shard":"shard_2",
