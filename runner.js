@@ -28,7 +28,11 @@ if(netRunnerConfigs.testnetDir==='TESTNET_V5'){
 
     NODES_DIRS = [];
 
-    for(let i = 1; i <= 5 ; i++) NODES_DIRS.push(`${baseDir}/V${i}`);
+    for(let i = 1; i <= 5 ; i++) {
+
+        NODES_DIRS.push(`${baseDir}/V${i}`);
+
+    }
 
 } else if (netRunnerConfigs.testnetDir==='TESTNET_V21'){
 
