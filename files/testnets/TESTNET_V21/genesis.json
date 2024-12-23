@@ -47,294 +47,294 @@
 
     "POOLS": {
         "9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7332",
             "wssPoolURL": "ws://localhost:9999"
         },
         "6XvZpuCDjdvSuot3eLr24C1wqzcf2w4QqeDh9BnDKsNE": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "6XvZpuCDjdvSuot3eLr24C1wqzcf2w4QqeDh9BnDKsNE": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7333",
             "wssPoolURL": "ws://localhost:9998"
         },
         "GUbYLN5NqmRocMBHqS183r2FQRoUjhx1p5nKyyUBpntQ": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "GUbYLN5NqmRocMBHqS183r2FQRoUjhx1p5nKyyUBpntQ": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7334",
             "wssPoolURL": "ws://localhost:9997"
         },
         "3JAeBnsMedzxjCMNWQYcAXtwGVE9A5DBQyXgWBujtL9R": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "3JAeBnsMedzxjCMNWQYcAXtwGVE9A5DBQyXgWBujtL9R": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7335",
             "wssPoolURL": "ws://localhost:9996"
         },
         "EGU4u3Anwahbtbx8F1ZZgFQSg2u49EkrkqMERT9r3q1o": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "EGU4u3Anwahbtbx8F1ZZgFQSg2u49EkrkqMERT9r3q1o": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7336",
             "wssPoolURL": "ws://localhost:9995"
         },
         "2o4C94redwJ2jLXdpM9qMdj3Zpc2914XGqu6wfFBKBmE": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "2o4C94redwJ2jLXdpM9qMdj3Zpc2914XGqu6wfFBKBmE": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7337",
             "wssPoolURL": "ws://localhost:9994"
         },
         "Ai1Pk9RzmgeiSAptc1W69NAmSB52GqjNqGdGQGgqxQA1": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "Ai1Pk9RzmgeiSAptc1W69NAmSB52GqjNqGdGQGgqxQA1": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7338",
             "wssPoolURL": "ws://localhost:9993"
         },
         "3MTbwgky9BQ4bQ9yLhFHPj1uPRHz6BCnaczhLtHvVkZd": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "3MTbwgky9BQ4bQ9yLhFHPj1uPRHz6BCnaczhLtHvVkZd": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7339",
             "wssPoolURL": "ws://localhost:9992"
         },
         "5mhmJtr4PWHVahDsXXdFZXvEx8ZdXgAYiF34GWfWkVyE": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "5mhmJtr4PWHVahDsXXdFZXvEx8ZdXgAYiF34GWfWkVyE": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7340",
             "wssPoolURL": "ws://localhost:9991"
         },
         "2EaUrwh5GcxRcj3ekAaVNasCkJfGCQbScvyE1twHtAJK": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "2EaUrwh5GcxRcj3ekAaVNasCkJfGCQbScvyE1twHtAJK": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7341",
             "wssPoolURL": "ws://localhost:9990"
         },
         "HaK6geYS2F6hdA95MouFN2BxM7e43Boap3UAND48jJdK": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "HaK6geYS2F6hdA95MouFN2BxM7e43Boap3UAND48jJdK": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7342",
             "wssPoolURL": "ws://localhost:9989"
         },
         "4gu3mBQUTApVmYir7KSaMRgMFaAqSBYQhhJVbBTdFcBc": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "4gu3mBQUTApVmYir7KSaMRgMFaAqSBYQhhJVbBTdFcBc": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7343",
             "wssPoolURL": "ws://localhost:9988"
         },
         "Cw4MjAsm5gRQh7JaiYXvJ9kzgt5xemhe1789kvcXY1Pz": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "Cw4MjAsm5gRQh7JaiYXvJ9kzgt5xemhe1789kvcXY1Pz": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7344",
             "wssPoolURL": "ws://localhost:9987"
         },
         "GtVt8LxEnFQGzLA6C8gxxp3QFi8mDPyw1JDtrbGwV7yG": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "GtVt8LxEnFQGzLA6C8gxxp3QFi8mDPyw1JDtrbGwV7yG": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7345",
             "wssPoolURL": "ws://localhost:9986"
         },
         "3LnaSuj16xdXKqyVZ44dyELgkRrDfepyr2zAYQ71BgDv": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "3LnaSuj16xdXKqyVZ44dyELgkRrDfepyr2zAYQ71BgDv": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7346",
             "wssPoolURL": "ws://localhost:9985"
         },
         "BxgYj9pQ6mpr21nRnhxafaSkREeMeqKFKBo7QtMXdVGz": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "BxgYj9pQ6mpr21nRnhxafaSkREeMeqKFKBo7QtMXdVGz": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7347",
             "wssPoolURL": "ws://localhost:9984"
         },
         "8JF1sLfV152pVrpZ5hQtUDpHDvAWkmexVhBmWQwuLA7j": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "8JF1sLfV152pVrpZ5hQtUDpHDvAWkmexVhBmWQwuLA7j": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7348",
             "wssPoolURL": "ws://localhost:9983"
         },
         "3UbTiukuJfZsTdtNuPEmssEUqLU8ARK3xKr6fmTKQDNB": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "3UbTiukuJfZsTdtNuPEmssEUqLU8ARK3xKr6fmTKQDNB": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7349",
             "wssPoolURL": "ws://localhost:9982"
         },
         "HndWA136VCLpenfKRZSy8F16kyR57pXh28yDeqfqQytV": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "HndWA136VCLpenfKRZSy8F16kyR57pXh28yDeqfqQytV": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7350",
             "wssPoolURL": "ws://localhost:9981"
         },
         "FfnrppXCMV9fS6y1JZ8FAAAUFVPWHgDA5VkxKBgTz2j": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "FfnrppXCMV9fS6y1JZ8FAAAUFVPWHgDA5VkxKBgTz2j": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7351",
             "wssPoolURL": "ws://localhost:9980"
         },
         "Hvh1fAt47MetaJNoZChBp4sf4V8TkzVeiCF4qDgUzu4X": {
-            "percentage": 0.5,
-            "totalStakedKly":55000,
-            "totalStakedUno": 0,
+            "percentage": 50,
+            "totalStakedKly":"55000000000000000000000",
+            "totalStakedUno": "0",
             "stakers": {
                 "Hvh1fAt47MetaJNoZChBp4sf4V8TkzVeiCF4qDgUzu4X": {
-                    "kly": 55000,
-                    "uno":0,
-                    "reward": 0
+                    "kly": "55000000000000000000000",
+                    "uno": "0",
+                    "reward": "0"
                 }
             },
             "poolURL": "http://localhost:7352",
