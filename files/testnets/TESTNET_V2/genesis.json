@@ -208,6 +208,45 @@
 
         },
 
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+        
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+    
+        "0xcccccccccccccccccccccccccccccccccccccccc": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+        
+        "0xdddddddddddddddddddddddddddddddddddddddd": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+
         "0x1000000000000000000000000000000000000007":{
             
             "isContract":true,
@@ -222,7 +261,7 @@
     },
 
     "UNLOCKS": {
-        "team": {
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
             "180": 44440000,
             "210": 44440000,
             "240": 44440000,
@@ -242,10 +281,10 @@
             "660": 44440000,
             "690": 44440000
         },
-        "airdrop": {
+        "0xdddddddddddddddddddddddddddddddddddddddd": {
             "0": 240000000
         },
-        "mining": {
+        "blockRewards": {
             "0": 64000000,
             "30": 64000000,
             "60": 64000000,

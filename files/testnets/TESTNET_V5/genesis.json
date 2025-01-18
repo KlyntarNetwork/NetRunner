@@ -256,6 +256,45 @@
 
         },
 
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+        
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+    
+        "0xcccccccccccccccccccccccccccccccccccccccc": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+        
+        "0xdddddddddddddddddddddddddddddddddddddddd": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+            "nonce": 0,
+            "balance": 0,
+            "code": "",
+            "storage": {},
+            "gas": 0
+        },
+
         "0x1000000000000000000000000000000000000007":{
             
             "isContract":true,
@@ -271,7 +310,7 @@
 
     "UNLOCKS": {
     
-        "team": {
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": {
             "180": 44440000,
             "210": 44440000,
             "240": 44440000,
@@ -291,7 +330,7 @@
             "660": 44440000,
             "690": 44440000
         },
-        "private": {
+        "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb": {
             "0": 136000000,
             "30": 174856000,
             "60": 174856000,
@@ -301,7 +340,7 @@
             "180": 174856000,
             "210": 174856000
         },
-        "strategic": {
+        "0xcccccccccccccccccccccccccccccccccccccccc": {
             "0": 40000000,
             "30": 51424000,
             "60": 51424000,
@@ -311,10 +350,10 @@
             "180": 51424000,
             "210": 51424000
         },
-        "airdrop": {
+        "0xdddddddddddddddddddddddddddddddddddddddd": {
             "0": 240000000
         },
-        "dev_fund": {
+        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
             "0": 40000000,
             "30": 40000000,
             "60": 40000000,
@@ -326,7 +365,7 @@
             "240": 40000000,
             "270": 40000000
         },
-        "mining": {
+        "blockRewards": {
             "0": 64000000,
             "30": 64000000,
             "60": 64000000,
