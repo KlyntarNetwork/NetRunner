@@ -1,9 +1,18 @@
-const fs = require('fs');
+import fs from 'fs';
 
-const {spawn} = require('child_process');
+import { spawn } from 'child_process';
 
-const path = require('path');
+import path from 'path';
 
+import {fileURLToPath} from 'url';
+
+
+
+
+
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
 
 const netRunnerConfigsPath = path.join(__dirname, 'netrunner_configs.json');
 
