@@ -30,7 +30,7 @@ pnpm install
 # 4. Now clone this repository in some another directory
 
 ```shell
-git clone https://github.com/KLYN74R/NetRunner.git
+git clone https://github.com/KlyntarNetwork/NetRunner.git
 
 cd NetRunner
 ```
@@ -41,7 +41,7 @@ See `netrunner_configs.json`
 
 ```json
 {
-    "corePath":"/full/path/to/KlyntarCore/klyn74r.js",
+    "corePath":"/full/path/to/KlyntarCore/klyntar_core.js",
     "mode":"testnet",
     "testnetDir":"TESTNET_V5"
 }
@@ -61,7 +61,7 @@ Depending on network size - switch `testnetDir` to 3 possible options:
 
 ```json
 {
-    "corePath":"/full/path/to/KlyntarCore/klyn74r.js",
+    "corePath":"/full/path/to/KlyntarCore/klyntar_core.js",
     "mode":"testnet",
     "testnetDir":"TESTNET_V2",
     "nodesIdsToDisable":[]
@@ -99,7 +99,7 @@ Your `netrunner_configs.json` should look like this:
 
 ```json
 {
-    "corePath":"/full/path/to/KlyntarCore/klyn74r.js",
+    "corePath":"/full/path/to/KlyntarCore/klyntar_core.js",
     "mode":"testnet",
     "testnetDir":"TESTNET_V5",
     "nodesIdsToDisable":[]
@@ -124,7 +124,7 @@ Your `netrunner_configs.json` should look like this:
 
 ```json
 {
-    "corePath":"/full/path/to/KlyntarCore/klyn74r.js",
+    "corePath":"/full/path/to/KlyntarCore/klyntar_core.js",
     "mode":"testnet",
     "testnetDir":"TESTNET_V21",
     "nodesIdsToDisable":[]
