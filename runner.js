@@ -64,7 +64,7 @@ function runKlyntarWithEnv(pathToChainDirectory) {
 
     const env = { ...process.env, SYMBIOTE_DIR: pathToChainDirectory, KLY_MODE }; // set process env vars
 
-    const klyntarProcess = spawn('node',[CORE_PATH], { env });
+    const klyntarProcess = spawn('node',[CORE_PATH], { env, windowsHide: true });
 
     
     childProcesses.push(klyntarProcess);

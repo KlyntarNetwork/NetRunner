@@ -20,7 +20,7 @@ const baseDir = path.join(__dirname,`X${netRunnerConfigs.testnetDir}`);
 const timestampToSet = new Date().getTime();
 
 
-const updateGenesisTimestamp = () => {
+export const updateGenesisTimestamp = () => {
   for (let i = 1; i <= 21; i++) {
     const versionDir = path.join(baseDir, `V${i}`);
     const genesisFilePath = path.join(versionDir, 'GENESIS', 'genesis.json');
