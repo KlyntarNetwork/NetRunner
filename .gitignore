@@ -1,6 +1,5 @@
 ed25519_keys.json
-tge_related
 XTESTNET*
 recovery_preparation.txt
 node_modules
-recovery_scripts
+legacy
