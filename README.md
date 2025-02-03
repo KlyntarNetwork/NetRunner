@@ -11,7 +11,7 @@ See https://docs.klyntar.org/build-core-and-join-network/run-kly-node
 
 # 2. After build, omit the last part about preparing configs and genesis:
 
-![alt text](image.png)
+![alt text](./files/images/image.png)
 
 # 3. Switch to branch in core `dev_cloud`
 
@@ -140,3 +140,60 @@ node update_timestamp_in_genesis.js
 
 node runner.js
 ```
+
+
+# Using PM2 for production management
+
+![alt text](./files/images/pm2.png)
+
+
+PM2 allows you to run services in the background, monitor server resource usage, write logs, and more.
+
+> **PM2 is the recommended way to run and maintain a node (regular and validator) for Klyntar**
+
+To run & work with a testnet you can use these simple commands:
+
+### 1. Start a testnet in a single command:
+
+```bash
+pm2 start runner2.js
+```
+
+### 2. Check the active background services
+
+You will see the following
+
+![alt text](./files/images/list_of_services.png)
+
+### 3. Enter monitoring dashboard
+
+```bash
+pm2 monit runner2
+```
+
+![alt text](./files/images/monit.png)
+
+
+### 4. Read the logs stream
+
+```bash
+pm2 logs runner2
+```
+
+![alt text](./files/images/logs.png)
+
+### 5. Read last N lines of logs from stdout / stderr streams (`nostream` mode)
+
+```bash
+pm2 logs --lines <N> --nostream runner2
+```
+
+> ### Reading logs available even if the service was stopped - so it's useful to understand reasons of downtimes and so on
+
+### 6. Stop a testnet
+
+```bash
+pm2 stop runner2
+```
+
+> ### When you stop the testnet and then run it again - the progress will be dropped and testnet will start from height 0 and epoch 0
