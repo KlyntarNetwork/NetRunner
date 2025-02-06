@@ -27,7 +27,7 @@ const copyFile = (src, dest) => fs.copyFileSync(src, dest);
 
 
 
-const setupDirectories = () => {
+export const setupDirectories = () => {
 
   let numberOfNodes = +(netRunnerConfigs.testnetDir.split('V')[1]);
 
@@ -78,5 +78,3 @@ const setupDirectories = () => {
   console.log(`Directories setup complete for testnet size ${netRunnerConfigs.testnetDir}`);
 
 };
-
-setupDirectories();
