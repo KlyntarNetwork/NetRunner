@@ -13,10 +13,10 @@ See https://docs.klyntar.org/build-core-and-join-network/run-kly-node
 
 ![alt text](./files/images/image.png)
 
-# 3. Switch to branch in core `dev_cloud`
+# 3. Switch to branch in core `dev`
 
 ```shell
-git checkout dev_cloud
+git checkout dev
 ```
 
 And install `web1337` by running:
