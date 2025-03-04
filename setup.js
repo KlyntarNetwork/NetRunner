@@ -27,54 +27,52 @@ const copyFile = (src, dest) => fs.copyFileSync(src, dest);
 
 
 
-export const setupDirectories = () => {
+let numberOfNodes = +(netRunnerConfigs.testnetDir.split('V')[1]);
 
-  let numberOfNodes = +(netRunnerConfigs.testnetDir.split('V')[1]);
-
-  if (!fs.existsSync(directoryForTestnet)) fs.mkdirSync(directoryForTestnet);
-
-  for (let i = 1 ; i <= numberOfNodes ; i++) {
-
-    // Here will be subdirectories for files for each node in network
-    const nodeDirectory = path.join(directoryForTestnet, `V${i}`);    
-
-    if (!fs.existsSync(nodeDirectory)) fs.mkdirSync(nodeDirectory);
-
-    // For each subdirectory - create subdirs for genesis and configs
-
-    const genesisDir = path.join(nodeDirectory, 'GENESIS');
-    const configsDir = path.join(nodeDirectory, 'CONFIGS');
-
-    if (!fs.existsSync(genesisDir)) fs.mkdirSync(genesisDir);
-    if (!fs.existsSync(configsDir)) fs.mkdirSync(configsDir);
+if (!fs.existsSync(directoryForTestnet)) fs.mkdirSync(directoryForTestnet);
 
 
-    // ============= 1. Copy genesis
 
-    const genesisSrc = path.join(directoryWithSourceFiles, 'genesis.json');
-    const genesisDest = path.join(genesisDir, 'genesis.json');
-    
-    copyFile(genesisSrc, genesisDest);
+for (let i = 1 ; i <= numberOfNodes ; i++) {
 
-    // ============= 2. Copy configs for VMs
+  // Here will be subdirectories for files for each node in network
+  const nodeDirectory = path.join(directoryForTestnet, `V${i}`);    
 
-    let vmsConfigs = ['kly_wvm.json','kly_evm.json'];
+  if (!fs.existsSync(nodeDirectory)) fs.mkdirSync(nodeDirectory);
 
-    vmsConfigs.forEach(file => {
-      const src = path.join(__dirname, `files/common_files/${file}`);
-      const dest = path.join(configsDir, file);
-      copyFile(src, dest);
-    });
+  // For each subdirectory - create subdirs for genesis and configs
 
-    // ============= 3. Copy node configs
+  const genesisDir = path.join(nodeDirectory, 'GENESIS');
+  const configsDir = path.join(nodeDirectory, 'CONFIGS');
 
-    const nodeConfigsSrc = path.join(directoryWithSourceFiles, `configs_for_nodes/config_${i}.json`);
-    const nodeConfigsDest = path.join(configsDir, 'config.json');
-    
-    copyFile(nodeConfigsSrc, nodeConfigsDest);
-    
-  }
+  if (!fs.existsSync(genesisDir)) fs.mkdirSync(genesisDir);
+  if (!fs.existsSync(configsDir)) fs.mkdirSync(configsDir);
 
-  console.log(`Directories setup complete for testnet size ${netRunnerConfigs.testnetDir}`);
 
-};
+  // ============= 1. Copy genesis
+
+  const genesisSrc = path.join(directoryWithSourceFiles, 'genesis.json');
+  const genesisDest = path.join(genesisDir, 'genesis.json');
+  
+  copyFile(genesisSrc, genesisDest);
+
+  // ============= 2. Copy configs for VMs
+
+  let vmsConfigs = ['kly_wvm.json','kly_evm.json'];
+
+  vmsConfigs.forEach(file => {
+    const src = path.join(__dirname, `files/common_files/${file}`);
+    const dest = path.join(configsDir, file);
+    copyFile(src, dest);
+  });
+
+  // ============= 3. Copy node configs
+
+  const nodeConfigsSrc = path.join(directoryWithSourceFiles, `configs_for_nodes/config_${i}.json`);
+  const nodeConfigsDest = path.join(configsDir, 'config.json');
+  
+  copyFile(nodeConfigsSrc, nodeConfigsDest);
+  
+}
+
+console.log(`Directories setup complete for testnet size ${netRunnerConfigs.testnetDir}`);
