@@ -55,7 +55,7 @@ Depending on network size - switch `testnetDir` to 3 possible options:
 
 <br/><br/>
 
-# 6. Launch testnet with a single shard and 2 validators
+# 6. Launch testnet with 2 validators
 
 1. Your `netrunner_configs.json` should look like this:
 
@@ -93,7 +93,7 @@ node runner.js
 
 <br/><br/>
 
-# 7. Launch testnet with a 3 shards and 5 validators
+# 7. Launch testnet with 5 validators
 
 Your `netrunner_configs.json` should look like this:
 
@@ -118,7 +118,7 @@ node runner.js
 
 <br/><br/>
 
-# 8. Launch testnet with a single shard and 21 validators (almost prod)
+# 8. Launch testnet with 21 validators
 
 Your `netrunner_configs.json` should look like this:
 
