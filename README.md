@@ -9,11 +9,7 @@ This is the collection of files & scripts that should be used to help with local
 
 See https://docs.klyntar.org/build-core-and-join-network/run-kly-node
 
-# 2. After build, omit the last part about preparing configs and genesis:
-
-![alt text](./files/images/image.png)
-
-# 3. Switch to branch in core `dev`
+# 2. Switch to branch in core `dev`
 
 ```shell
 git checkout dev
@@ -27,7 +23,7 @@ pnpm install
 
 > This is to generate mock transactions and fill the blocks
 
-# 4. Now clone this repository in some another directory
+# 3. Now clone this repository in some another directory
 
 ```shell
 git clone https://github.com/KlyntarNetwork/NetRunner.git
@@ -35,7 +31,7 @@ git clone https://github.com/KlyntarNetwork/NetRunner.git
 cd NetRunner
 ```
 
-# 5. Prepare netrunner configs
+# 4. Prepare netrunner configs
 
 See `netrunner_configs.json`
 
@@ -55,7 +51,7 @@ Depending on network size - switch `testnetDir` to 3 possible options:
 
 <br/><br/>
 
-# 6. Launch testnet with 2 validators
+# 5. Launch testnet with 2 validators
 
 1. Your `netrunner_configs.json` should look like this:
 
@@ -93,7 +89,7 @@ node runner.js
 
 <br/><br/>
 
-# 7. Launch testnet with 5 validators
+# 6. Launch testnet with 5 validators
 
 Your `netrunner_configs.json` should look like this:
 
@@ -118,7 +114,7 @@ node runner.js
 
 <br/><br/>
 
-# 8. Launch testnet with 21 validators
+# 7. Launch testnet with 21 validators
 
 Your `netrunner_configs.json` should look like this:
 
