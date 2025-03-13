@@ -11,7 +11,7 @@ See https://docs.klyntar.org/build-core-and-join-network/run-kly-node
 # 2. Switch to branch in core `dev`
 
 ```shell
-git checkout dev
+git checkout mode_1
 ```
 
 And install `web1337` by running:
