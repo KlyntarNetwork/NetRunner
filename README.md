@@ -3,7 +3,6 @@
 This is the collection of files & scripts that should be used to help with local testnet management
 
 <br/><br/>
-<br/><br/>
 
 # 1. Before run - you should build the Klyntar core
 
