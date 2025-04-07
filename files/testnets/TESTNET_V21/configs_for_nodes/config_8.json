@@ -91,7 +91,6 @@
         "GET_BLOCKS_URL": "http://localhost:7333",
         "GET_AGGREGATED_FINALIZATION_PROOF_URL": "http://localhost:7335",
         "GET_PREVIOUS_EPOCH_AGGREGATED_FINALIZATION_PROOF_URL": "http://localhost:7336",
-        "ANIMATION_DURATION": 0,
         "PLUGINS": [],
         "INTERFACE": "::",
         "PORT": 7339,
