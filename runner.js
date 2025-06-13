@@ -62,7 +62,7 @@ const childProcesses = [];
 // Main function to run nodes as a subprocesses
 function runKlyntarWithEnv(pathToChainDirectory) {
 
-    const env = { ...process.env, SYMBIOTE_DIR: pathToChainDirectory, KLY_MODE }; // set process env vars
+    const env = { ...process.env, CHAINDATA_PATH: pathToChainDirectory, KLY_MODE }; // set process env vars
 
     const klyntarProcess = spawn('node',[CORE_PATH], { env, windowsHide: true });
 
